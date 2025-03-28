@@ -22,7 +22,7 @@ repository               : "l1anch1/l1anch1.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "/images/profile.png"
   name             : "Anchi Li"
   pronouns         : # example: "she/her"  
   bio              : "Beijing University of Technology"
