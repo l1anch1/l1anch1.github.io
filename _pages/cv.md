@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Beijing University of Technology, 2022
+* B.S. in Computer Science, Beijing University of Technology, 2026
 
 Work experience
 ======
