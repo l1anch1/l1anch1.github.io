@@ -31,7 +31,9 @@ Work experience
   * Supervisor: Professor Jin Huang
   
 
-* Honors and Awards
+Honors and Awards
+======
+
 - China Computer Federation Student Member, August, 2022 - Present
 - Mitacs Globalink Research Internship award, February, 2025
 - University Excellence Scholarship, Beijing University of Technology, December, 2023

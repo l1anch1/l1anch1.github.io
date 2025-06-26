@@ -37,7 +37,7 @@ ulimit -a
 
 终端输出：
 
-![alt text](../assets/my_blog_images/20250615-1.png)
+![alt text](../../../assets/my_blog_images/20250615-1.png)
 
 其中，“-n: file descriptors 1048575”说明文件描述符限制为 1048575，也就是单个进程理论上可以打开的最大文件数。看着这个数值，我不禁感到疑惑。
 
@@ -57,7 +57,7 @@ launchctl limit maxfiles
 发现输出为：
 
 
-![alt text](../assets/my_blog_images/20250615-2.png)
+![alt text](../../../assets/my_blog_images/20250615-2.png)
 
 此处，256 代表软限制只有 256 个，即任何进程在未主动提升权限的情况下，其可持有的文件描述符数量不能超过 256。`unlimited` 代表硬限制（软限制可以被提升到的理论上限）是无限的。
 
