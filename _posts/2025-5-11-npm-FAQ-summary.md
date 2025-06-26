@@ -1,11 +1,11 @@
 ﻿---
 title: "npm FAQ summary"
 date: 2025-05-11
-permalink: /posts/2025/npm FAQ summary/
+permalink: /posts/2025/npm FAQ Summary/
 tags:
   - npm
   - 依赖冲突
-  - frontend
+  - Frontend
 ---
 
 最近在学习前端 React 框架，使用 npm 包管理器时遇到了不少坑，在这里分享一下我的经历和总结，希望对大家有所帮助。
@@ -19,7 +19,7 @@ tags:
 - [2. 自定义本地 npm 包](#2-自定义本地-npm-包)
     - [作用域管理](#作用域管理)
     - [常见错误](#常见错误)
-- [总结](#总结)
+- [3.总结](#3总结)
 
 ​
 
@@ -167,6 +167,6 @@ npm install
 "name": "@myorg/my-package"
 ```
 
-# 总结
+# 3.总结
 
 通过这些实践，可以减少依赖冲突，提升开发效率，并确保项目的稳定性和可维护性。希望我的总结对你有所帮助！
