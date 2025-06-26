@@ -1,6 +1,6 @@
 ﻿---
 title: "Props and Context in React"
-date: 2025-06-28
+date: 2025-06-24
 permalink: /posts/2025/Props and Context in React/
 tags:
   - React
