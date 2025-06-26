@@ -13,7 +13,7 @@ title                    : "Anchi Li / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Anchi Li"
 description              : &description "personal description"
-url                      : https://l1anch1.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : "https://l1anch1.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "l1anch1/l1anch1.github.io"
 
@@ -28,7 +28,7 @@ author:
   bio              : "Beijing University of Technology"
   location         : "Beijing, China"
   employer         : #"Red Brick University"
-  uri              : # URL
+  uri              : "https://l1anch1.github.io" # URL
   email            : "l1anch1@outlook.com" 
 
   # Academic websites
