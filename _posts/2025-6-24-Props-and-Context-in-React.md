@@ -12,11 +12,11 @@ tags:
 React 组件间经常需要传递数据，本篇文章介绍如何使得数据的管理和传递更为高效。
 
 - [1. Props](#1-props)
-	- [什么是 Props](#什么是-props)
-	- [如何传递 Props](#如何传递-props)
+  - [什么是 Props](#什么是-props)
+  - [如何传递 Props](#如何传递-props)
 - [2. Context](#2-context)
-	- [1. 引入库](#1-引入库)
-	- [2. 基本步骤](#2-基本步骤)
+  - [1. 引入库](#1-引入库)
+  - [2. 基本步骤](#2-基本步骤)
 - [3. Props 与 Context 的比较](#3-props-与-context-的比较)
 - [4. 总结](#4-总结)
 
@@ -66,15 +66,13 @@ Context 设计是为了解决多组件间复杂状态同步的问题，可以通
 1. **创建上下文：** 使用 `createContext` 创建一个新的上下文来存储共享的变量。
 
     ```javascript  
-	const CounterContext = createContext();  
+	  const CounterContext = createContext();  
     ```
 
 2. **在组件中提供上下文：** 在父组件中，用 `CounterContext.Provider` 包裹子组件，传入共享状态及更新函数。
 
     ```javascript  
-
-
-	const App = () => {
+    const App = () => {
       const [count, setCount] = useState(0);
 
       return (
@@ -84,31 +82,27 @@ Context 设计是为了解决多组件间复杂状态同步的问题，可以通
         </CounterContext.Provider>
       );
     };
-
     ```
 
 3. **在子组件中消费上下文：** 在子组件中，用 `useContext` Hook 访问上下文。
 
-   ```javascript  
+    ```js  
     const CounterDisplay = () => {
-	  const { count } = useContext(CounterContext);
+      const { count } = useContext(CounterContext);
       return <p>当前计数：{count}</p>;
     };
 
-	const CounterButton = () => {
-	  const { setCount } = useContext(CounterContext);
-	  return (
-	    <button onClick={() => setCount((prev) => prev + 1)}>增加</button>
-	  );
-	};
-   ```
+    const CounterButton = () => {
+      const { setCount } = useContext(CounterContext);
+      return (
+        <button onClick={() => setCount((prev) => prev + 1)}>增加</button>
+      );
+    };
+    ```
 
 # 3. Props 与 Context 的比较
 
-
-Props 的数据以单向流动的方式从父组件传递到子组件。而 Context 数据可以在整个组件树中进行共享，避免了因为层层传递 props 而导致的 “props drilling” 问题。
-
-Props 适用于父组件与子组件之间的简单数据传递，尤其是当组件之间的关系非常明确时。Context 更适合在多层嵌套的组件中共享状态，例如主题、用户认证信息等。在一些大项目中需要跨越多层组件传递数据时，Context 提供了更简洁的解决方案。
+Props 适用于父组件与子组件之间的简单数据传递，尤其是当组件之间的关系非常明确时。而 Context 数据可以在整个组件树中进行共享，避免了因为层层传递 props 而导致的 “props drilling” 问题。Context 更适合在多层嵌套的组件中共享状态，例如主题、用户认证信息等。在一些大项目中需要跨越多层组件传递数据时，Context 提供了更简洁的解决方案。
 
 
 # 4. 总结
