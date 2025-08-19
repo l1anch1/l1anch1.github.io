@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in Computer Science, Beijing University of Technology, 2026
 
-Work experience
+Research Experience
 ======
 <!-- * Spring 2024: Academic Pages Collaborator
   * GitHub University
@@ -26,20 +26,22 @@ Work experience
   * Supervisor: Professor Hub-->
 
 * Summer 2024: Research Assistant
-  * Institute of Software, Chinese Academy of Sciences
+  * Human-Computer Interaction and Intelligent Information Processing Lab, Institute of Software, Chinese Academy of Sciences
   * Duties included: Backend development for low-code large model platform and fine-tuning of LLMs.
-  * Supervisor: Professor Jin Huang
+  * Supervisor: Professor [Jin Huang](https://people.ucas.ac.cn/~huangjin)
   
+* Summer 2025: Research Assistant
+  * REALISE Lab, Gina Cody School of Engineering and Computer Science, Concordia University
+  * Duties included: Improved LLM performance for novel library code generation through multiple optimization strategies and techniques.
+  * Supervisor: Professor [Diego Elias Costa](https://diegoeliascosta.github.io/)
 
 Honors and Awards
 ======
 
 - China Computer Federation Student Member, August, 2022 - Present
 - Mitacs Globalink Research Internship award, February, 2025
-- University Excellence Scholarship, Beijing University of Technology, December, 2023
-- University Innovation and Entrepreneurship Scholarship, Beijing University of Technology, December, 2023
-
-
+- Academic Excellence Scholarship, Beijing University of Technology, December, 2023
+- Innovation and Entrepreneurship Scholarship, Beijing University of Technology, December, 2023
 
 
 Publications
@@ -66,6 +68,16 @@ Publications
 
 Skills
 ======
-* Language: proficient in C/C++, Python; competent in Java.
-* Tool: competent in Latex, Git.
-* Cardistry
+**Programming Languages**
+* Proficient: C/C++, Python
+* Competent: Java, HTML/CSS/JavaScript
+
+**Tools & Technologies**
+* **Development:** Git, Docker, LaTeX, VS Code, Jupyter Notebook
+* **Frameworks:** Flask, Qt, Node.js, React
+* **AI/ML:** PyTorch, LangChain, scikit-learn, pandas, NumPy, Matplotlib
+* **Database:** MySQL, SQLite
+* **Operating Systems:** Linux/Unix, Windows
+
+**Personal Interests**
+* Cardistry, Photography
