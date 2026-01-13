@@ -40,8 +40,6 @@ I believe in **human-centered AI research** that addresses real-world challenges
 - **🏅 Academic Excellence**: Top 20% scholarship recipient with 3.8/4.0 GPA
 - **🌍 International Experience**: Research at Chinese Academy of Sciences & Concordia University
 
-
-
 ---
 
 <div style="text-align: center; background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 30px;">
