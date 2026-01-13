@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Beijing University of Technology, 2026
+* B.S. in Computer Science and Technology, Beijing University of Technology, 2026
   * GPA: 3.8/4.0
 
 Research Experience
