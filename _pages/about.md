@@ -15,32 +15,19 @@ redirect_from:
 ## About Me
 
 I'm a **Computer Science senior** at Beijing University of Technology (GPA: 3.8/4.0, Top 20%), passionate about making AI more accessible and useful for developers and educators. My journey spans from the labs of the **Chinese Academy of Sciences** to **Concordia University**, where I've been exploring how Large Language Models can revolutionize the way we write, learn, and interact with code.
-
----
-
-## 🎯 Research Philosophy
-
 > *"The most impactful research doesn't just advance knowledge—it transforms how people work, learn, and create."*
+---
 
 I believe in **human-centered AI research** that addresses real-world challenges. My work focuses on the intersection of:
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
-
-<div style="border: 2px solid #e1e8ed; border-radius: 8px; padding: 15px;">
 <h4>🤖 Intelligent Code Generation</h4>
-<p>Developing LLM systems that understand and generate code for novel APIs, making programming more accessible and efficient.</p>
-</div>
-
-<div style="border: 2px solid #e1e8ed; border-radius: 8px; padding: 15px;">
 <h4>📚 AI-Powered Education</h4>
-<p>Creating personalized tutoring systems that adapt to individual learning styles and help educators craft better assessment questions.</p>
-</div>
-
-<div style="border: 2px solid #e1e8ed; border-radius: 8px; padding: 15px;">
 <h4>🎨 Human-AI Collaboration</h4>
-<p>Designing interfaces and interactions that enhance human creativity rather than replace it, focusing on seamless AI integration.</p>
-</div>
 
+<div style="text-align: center; margin: 25px 0;">
+  <a href="https://l1anch1.com" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 1.1em; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.3s ease;">
+    🚀 Explore All Projects → l1anch1.com
+  </a>
 </div>
 
 ---
@@ -51,37 +38,6 @@ I believe in **human-centered AI research** that addresses real-world challenges
 - **🎓 Mitacs Globalink Research Award**: Selected for international research collaboration
 - **🏅 Academic Excellence**: Top 20% scholarship recipient with 3.8/4.0 GPA
 - **🌍 International Experience**: Research at Chinese Academy of Sciences & Concordia University
-
----
-
-## 🚀 What I'm Building
-
-<div style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%); padding: 25px; border-radius: 15px; margin: 20px 0; border-left: 5px solid #ff6b6b;">
-  <h3 style="color: #2c3e50; margin-top: 0;">🔥 Featured Projects & Research</h3>
-  <p style="color: #34495e; font-size: 1.1em;">Transforming ideas into impactful solutions at the intersection of AI and software development</p>
-</div>
-
-### 🤖 **CodeCraft AI** - *Novel API Code Generation*
-**Concordia University | REALISE Lab | 2024**
-- **Challenge**: LLMs struggle with unfamiliar libraries and novel APIs
-- **Innovation**: Multi-stage optimization pipeline improving code generation accuracy by 40%
-- **Impact**: Reducing developer learning curve for new frameworks
-- **Tech Stack**: Python, PyTorch, Transformers, REST APIs
-- **Status**: 📊 *Research paper in preparation*
-
-### 🎓 **TutorCraftEase** - *AI-Powered Educational Tools*
-**Chinese Academy of Sciences | HCI Lab | 2024**
-- **Challenge**: Educators spend 60% of time creating assessment questions
-- **Innovation**: LLM-driven question generation with pedagogical principles
-- **Impact**: Published at **CHI 2025** - Top-tier HCI conference
-- **Tech Stack**: Flask, LangChain, React, Natural Language Processing
-- **Status**: ✅ *Deployed and actively used by educators*
-
-<div style="text-align: center; margin: 25px 0;">
-  <a href="https://l1anch1.com" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 1.1em; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.3s ease;">
-    🚀 Explore All Projects → l1anch1.com
-  </a>
-</div>
 
 ---
 
