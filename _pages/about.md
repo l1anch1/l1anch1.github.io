@@ -13,7 +13,7 @@ redirect_from:
   <h2 id="home-intro-title">Building reliable LLM agents and AI systems for software engineering and human-centered applications.</h2>
   <p>My work connects research on large language models with robust, production-oriented AI systems.</p>
   <div class="button-row">
-    <a class="site-button site-button--primary" href="/publications/">View Publications</a>
+    <a class="site-button site-button--primary" href="/publications/">View Publications <span aria-hidden="true">→</span></a>
     <a class="site-button site-button--secondary" href="https://l1anch1.com/" target="_blank" rel="noopener noreferrer">Engineering Portfolio <span aria-hidden="true">↗</span></a>
   </div>
 </section>
