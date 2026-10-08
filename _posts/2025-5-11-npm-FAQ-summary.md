@@ -1,6 +1,7 @@
 ﻿---
 title: "npm FAQ summary"
 date: 2025-05-11
+note_category: "Development Notes"
 permalink: /posts/2025/npm FAQ Summary/
 tags:
   - npm

@@ -1,6 +1,7 @@
 ---
 title: "Deep Dive into Dependency Injection"
 date: 2025-08-19
+note_category: "Software Engineering"
 permalink: /posts/2025/Deep Dive into Dependency Injection/
 tags:
   - Dependency Injection
@@ -365,4 +366,3 @@ class UserService:
 - **提高可测试性**：轻松进行单元测试和集成测试  
 - **增强灵活性**：支持运行时配置和动态替换
 - **促进代码复用**：组件更加通用和模块化
-

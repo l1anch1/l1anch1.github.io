@@ -1,134 +1,119 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Anchi Li",
+    "label": "AI Researcher & Engineer",
+    "email": "l1anch1@outlook.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://l1anch1.github.io",
+    "summary": "Computer Science graduate working on LLM agents, AI for software engineering, retrieval-augmented generation, and human-centered AI.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Beijing",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
         "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "username": "0009-0003-3749-0875",
+        "url": "https://orcid.org/0009-0003-3749-0875"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "l1anch1",
+        "url": "https://github.com/l1anch1"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "ByteDance Seed",
+      "position": "Algorithm Engineering Intern",
+      "startDate": "2026-03",
+      "endDate": "2026-07",
+      "summary": "Coding LLM post-training and evaluation, automated task construction, distributed agent execution, and repository-level code understanding.",
+      "highlights": []
+    },
+    {
+      "company": "Concordia University, REALISE Lab",
+      "position": "Mitacs Research Intern",
+      "startDate": "2025-07",
+      "endDate": "2025-10",
+      "summary": "Retrieval-augmented code generation and multi-agent workflows for low-resource software libraries.",
+      "highlights": []
+    },
+    {
+      "company": "Institute of Software, Chinese Academy of Sciences",
+      "position": "Research Assistant",
+      "startDate": "2024-06",
+      "endDate": "2025-07",
+      "summary": "LLM-based agent systems, model fine-tuning, knowledge graphs, and human-centered AI applications.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
       "institution": "Beijing University of Technology",
-      "area": "B.S. in Conputer Science",
-      "studyType": "",
-      "startDate": "2022",
-      "endDate": "2026",
-      "gpa": "3.81",
+      "area": "B.Eng. in Computer Science and Technology",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2022-09",
+      "endDate": "2026-07",
+      "gpa": "90.01/100 (3.8/4.0)",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Python", "C/C++", "TypeScript/JavaScript", "Java", "SQL"]
+    },
+    {
+      "name": "AI / LLM",
+      "keywords": ["PyTorch", "Transformers", "LangChain", "RAG", "LLM Agents"]
+    },
+    {
+      "name": "Software Engineering",
+      "keywords": ["React", "FastAPI", "Node.js", "MySQL", "Docker", "Nginx", "Git", "CI/CD"]
+    },
+    {
+      "name": "Developer Tools",
+      "keywords": ["Claude Code", "Codex"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "TOEFL 107/120"
+    }
+  ],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "TutorCraftEase: Enhancing Pedagogical Question Creation with Large Language Models",
+      "publisher": "ACM CHI 2025 (CCF-A)",
+      "releaseDate": "2025-04-25",
+      "website": "https://doi.org/10.1145/3706598.3713731",
+      "summary": "Conference publication."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "AdaptQuest: Adaptive Pedagogical Question Crafting Tool Driven by Knowledge Graph and Large Language Model",
+      "publisher": "Manuscript under review",
+      "releaseDate": "",
+      "website": "",
+      "summary": "Not listed as accepted or published."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "RAGenius — Intelligent Knowledge Base System",
+      "category": "Selected project",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "https://www.ragenius.xyz/",
+      "description": "End-to-end RAG system with hybrid retrieval, reranking, caching, streaming responses, and production deployment."
     }
   ]
 }

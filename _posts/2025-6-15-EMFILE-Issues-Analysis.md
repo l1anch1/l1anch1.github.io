@@ -1,6 +1,7 @@
 ---
 title: "EMFILE Issues Analysis"
 date: 2025-06-15
+note_category: "Development Notes"
 permalink: /posts/2025/EMFILE Issues Analysis/
 tags:
   - Node.js

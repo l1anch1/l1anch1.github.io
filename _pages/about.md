@@ -1,61 +1,87 @@
 ---
 permalink: /
 title: "Anchi Li (李桉弛)"
+description: "Anchi Li is an AI researcher and engineer working on LLM agents, AI for software engineering, retrieval-augmented generation, and human-centered AI."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-  <h2 style="color: white; margin-top: 0;">👋 Hello, I'm Anchi</h2>
-  <p style="font-size: 1.1em; margin-bottom: 0;">Building bridges between AI and human creativity through code</p>
-</div>
+<section class="home-intro" aria-labelledby="home-intro-title">
+  <p class="home-intro__eyebrow">AI Researcher &amp; Engineer</p>
+  <h2 id="home-intro-title">Building reliable LLM agents and AI systems for software engineering and human-centered applications.</h2>
+  <p>My work connects research on large language models with robust, production-oriented AI systems.</p>
+  <div class="button-row">
+    <a class="site-button site-button--primary" href="/publications/">View Publications</a>
+    <a class="site-button site-button--secondary" href="https://l1anch1.com/" target="_blank" rel="noopener noreferrer">Engineering Portfolio <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
 
 ## About Me
 
-I'm a **Computer Science senior** at Beijing University of Technology (GPA: 3.8/4.0, Top 20%), passionate about making AI more accessible and useful for developers and educators. My journey spans from the labs of the **Chinese Academy of Sciences** to **Concordia University**, where I've been exploring how Large Language Models can revolutionize the way we write, learn, and interact with code.
-> *"The most impactful research doesn't just advance knowledge—it transforms how people work, learn, and create."*
----
+I am a Computer Science graduate from Beijing University of Technology, working at the intersection of large language models, AI agents, and software engineering.
 
-I believe in **human-centered AI research** that addresses real-world challenges. My work focuses on the intersection of:
+My recent work includes coding LLM post-training and evaluation at ByteDance Seed, retrieval-augmented code generation at Concordia University, and human-centered AI research at the Institute of Software, Chinese Academy of Sciences.
 
-<h4>🤖 Intelligent Code Generation</h4>
-<h4>📚 AI-Powered Education</h4>
-<h4>🎨 Human-AI Collaboration</h4>
+My research interests include AI for Software Engineering, LLM Agents & Evaluation, Retrieval-Augmented Generation, and Human-Centered AI.
 
-<div style="text-align: center; margin: 25px 0;">
-  <a href="https://l1anch1.com" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 1.1em; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.3s ease;">
-    🚀 Explore All Projects → l1anch1.com
-  </a>
+## Research Interests
+
+<div class="interest-grid">
+  <div class="interest-card">
+    <h3>AI for Software Engineering</h3>
+    <p>Code generation, repository-level understanding, and AI-assisted development workflows.</p>
+  </div>
+  <div class="interest-card">
+    <h3>LLM Agents &amp; Evaluation</h3>
+    <p>Reliable agent execution, task construction, and large-scale evaluation.</p>
+  </div>
+  <div class="interest-card">
+    <h3>Retrieval-Augmented Generation</h3>
+    <p>Retrieval, reranking, and context optimization for knowledge-intensive systems.</p>
+  </div>
+  <div class="interest-card">
+    <h3>Human-Centered AI</h3>
+    <p>AI systems designed around the needs of developers, educators, and other end users.</p>
+  </div>
 </div>
 
----
+## Recent Highlights
 
-## 🏆 Recent Highlights
-
-- **📄 Published at CHI 2025**: "TutorCraftEase: Enhancing Pedagogical Question Creation with Large Language Models"
-- **🎓 Mitacs Globalink Research Award**: Selected for international research collaboration
-- **🏅 Academic Excellence**: Top 20% scholarship recipient with 3.8/4.0 GPA
-- **🌍 International Experience**: Research at Chinese Academy of Sciences & Concordia University
-
----
-
-## 💭 Beyond Code
-
-When I'm not building or researching:
-- **🃏 Cardistry** - Precision and creativity through card manipulation art
-- **📸 Photography** - Capturing perspectives that inspire design thinking
-
----
-
-<div style="text-align: center; background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 30px;">
-  <h3>Let's Connect!</h3>
-  <p>Interested in collaboration, research opportunities, or just want to chat about AI and code?</p>
-  <p>
-    <strong>📧 Email:</strong> l1anch1@outlook.com<br>
-    <strong>🔗 ORCID:</strong> <a href="https://orcid.org/0009-0003-3749-0875">0009-0003-3749-0875</a><br>
-    <strong>💻 Projects:</strong> <a href="https://l1anch1.com">l1anch1.com</a>
-  </p>
+<div class="highlight-list">
+  <article class="highlight-item">
+    <p class="highlight-item__meta">2026 · Industry Research</p>
+    <h3>ByteDance Seed</h3>
+    <p>Worked on coding LLM post-training, evaluation, and distributed agent infrastructure.</p>
+  </article>
+  <article class="highlight-item">
+    <p class="highlight-item__meta">2025 · Publication</p>
+    <h3>ACM CHI 2025</h3>
+    <p>Co-authored <a href="/publication/2025-04-25-tutorcraftease-enhancing-pedagogical-question-creation">TutorCraftEase</a>, published at ACM CHI 2025.</p>
+  </article>
+  <article class="highlight-item">
+    <p class="highlight-item__meta">2025 · Research Internship</p>
+    <h3>Mitacs Globalink</h3>
+    <p>Conducted research on retrieval-augmented code generation at Concordia University.</p>
+  </article>
+  <article class="highlight-item">
+    <p class="highlight-item__meta">Selected Project</p>
+    <h3>RAGenius</h3>
+    <p>Independently developed and deployed an end-to-end RAG system with hybrid retrieval and production infrastructure.</p>
+  </article>
 </div>
 
+<div class="section-link-row">
+  <a href="/experience/">View full experience →</a>
+  <a href="https://www.ragenius.xyz/" target="_blank" rel="noopener noreferrer">Visit RAGenius ↗</a>
+</div>
+
+## Beyond Research
+
+Outside of research and engineering, I enjoy cardistry and photography.
+
+<div class="contact-panel">
+  <h2>Contact</h2>
+  <p>For research or engineering conversations, email <a href="mailto:l1anch1@outlook.com">l1anch1@outlook.com</a>. You can also find me on <a href="https://github.com/l1anch1" target="_blank" rel="noopener noreferrer">GitHub ↗</a> and <a href="https://orcid.org/0009-0003-3749-0875" target="_blank" rel="noopener noreferrer">ORCID ↗</a>.</p>
+</div>

@@ -2,87 +2,82 @@
 layout: archive
 title: "CV"
 permalink: /cv/
+description: "Curriculum vitae of Anchi Li: education, research and engineering experience, projects, publications, honors, and technical skills."
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<p class="page-lead">AI researcher and engineer working on large language models, agent systems, and software engineering.</p>
 
-Education
-======
-* B.S. in Computer Science and Technology, Beijing University of Technology, 2026
-  * GPA: 3.8/4.0
+## Education
 
-Research Experience
-======
-<!-- * Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<div class="cv-entry">
+  <div>
+    <h3>Beijing University of Technology</h3>
+    <p class="entry-subtitle">B.Eng. in Computer Science and Technology</p>
+  </div>
+  <div class="entry-meta">Sep 2022 – Jul 2026<br>Beijing, China</div>
+</div>
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub-->
+GPA: **90.01/100 (3.8/4.0)**
 
-* Summer 2024: Research Assistant
-  * Human-Computer Interaction and Intelligent Information Processing Lab, Institute of Software, Chinese Academy of Sciences
-  * Duties included: Backend development for low-code large model platform and fine-tuning of LLMs.
-  * Supervisor: Professor [Jin Huang](https://people.ucas.ac.cn/~huangjin)
-  
-* Summer 2024: Research Assistant
-  * REALISE Lab, Gina Cody School of Engineering and Computer Science, Concordia University
-  * Duties included: Improved LLM performance for novel library code generation through multiple optimization strategies and techniques.
-  * Supervisor: Professor [Diego Elias Costa](https://diegoeliascosta.github.io/)
+## Research & Engineering Experience
 
-Honors and Awards
-======
+<div class="cv-entry">
+  <div><h3>ByteDance Seed</h3><p class="entry-subtitle">Algorithm Engineering Intern</p></div>
+  <div class="entry-meta">Mar 2026 – Jul 2026<br>Beijing, China</div>
+</div>
 
-- China Computer Federation Student Member, August, 2022 - Present
-- Mitacs Globalink Research Internship award, February, 2025
-- Academic Excellence Scholarship (Top 20%), Beijing University of Technology, December, 2023
-- Innovation and Entrepreneurship Scholarship, Beijing University of Technology, December, 2023
+- Worked on coding LLM post-training and evaluation, automated task construction, distributed agent execution, and repository-level code understanding.
 
+<div class="cv-entry">
+  <div><h3>Concordia University, REALISE Lab</h3><p class="entry-subtitle">Mitacs Research Intern</p></div>
+  <div class="entry-meta">Jul 2025 – Oct 2025<br>Montreal, Canada</div>
+</div>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul> -->
-  
-<!-- Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-  
-<!-- Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
+- Developed retrieval-augmented code generation methods and multi-agent workflows for low-resource software libraries.
 
-Skills
-======
-**Programming Languages**
-* Proficient: C/C++, Python
-* Competent: Java, HTML/CSS/JavaScript
+<div class="cv-entry">
+  <div><h3>Institute of Software, Chinese Academy of Sciences</h3><p class="entry-subtitle">Research Assistant</p></div>
+  <div class="entry-meta">Jun 2024 – Jul 2025<br>Beijing, China</div>
+</div>
 
-**Tools & Technologies**
-* **Development:** Git, Docker, LaTeX, VS Code, Jupyter Notebook
-* **Frameworks:** Flask, Qt, Node.js, React
-* **AI/ML:** PyTorch, LangChain, scikit-learn, pandas, NumPy, Matplotlib
-* **Database:** MySQL, SQLite
-* **Operating Systems:** Linux/Unix, Windows
+- Worked on LLM-based agent systems, model fine-tuning, knowledge graphs, and human-centered AI applications.
 
-**Languages**
-* Chinese (Native)
-* English (Proficient, TOEFL: 107/120)
+## Selected Projects
 
-**Personal Interests**
-* Cardistry, Photography
+### RAGenius — Intelligent Knowledge Base System
+
+- Designed a modular RAG pipeline incorporating hybrid retrieval, reranking, and context optimization.
+- Implemented concurrent retrieval, caching, and streaming responses.
+- Developed and deployed a full-stack application using React, FastAPI, Docker, and Nginx.
+- Project: [ragenius.xyz ↗](https://www.ragenius.xyz/){: target="_blank" rel="noopener noreferrer" }
+
+## Publications
+
+### Conference Publication
+
+**TutorCraftEase: Enhancing Pedagogical Question Creation with Large Language Models**<br>
+Wenhui Kang, Lin Zhang, Xiaolan Peng, Hao Zhang, **Anchi Li**, Mengyao Wang, Jin Huang, Feng Tian, and Guozhong Dai. ACM CHI 2025 (CCF-A). [DOI ↗](https://doi.org/10.1145/3706598.3713731){: target="_blank" rel="noopener noreferrer" }
+
+### Under Review
+
+**AdaptQuest: Adaptive Pedagogical Question Crafting Tool Driven by Knowledge Graph and Large Language Model**<br>
+Manuscript under review.
+
+## Honors & Awards
+
+- Mitacs Globalink Research Internship Award, 2025
+- Academic Excellence Scholarship (Top 20%), Beijing University of Technology, 2023
+- Innovation and Entrepreneurship Scholarship, Beijing University of Technology, 2023
+
+## Technical Skills
+
+<div class="skills-list">
+  <p><strong>Languages</strong><span>Python, C/C++, TypeScript/JavaScript, Java, SQL</span></p>
+  <p><strong>AI / LLM</strong><span>PyTorch, Transformers, LangChain, RAG, LLM Agents</span></p>
+  <p><strong>Software Engineering</strong><span>React, FastAPI, Node.js, MySQL, Docker, Nginx, Git, CI/CD</span></p>
+  <p><strong>Developer Tools</strong><span>Claude Code, Codex</span></p>
+  <p><strong>English</strong><span>TOEFL 107/120</span></p>
+</div>

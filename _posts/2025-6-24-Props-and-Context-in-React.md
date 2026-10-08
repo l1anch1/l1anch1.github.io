@@ -1,6 +1,7 @@
 ﻿---
 title: "Props and Context in React"
 date: 2025-06-24
+note_category: "Software Engineering"
 permalink: /posts/2025/Props and Context in React/
 tags:
   - React
@@ -76,7 +77,7 @@ Context 设计是为了解决多组件间复杂状态同步的问题，可以通
       const [count, setCount] = useState(0);
 
       return (
-        <CounterContext.Provider value={{ count, setCount }}>
+        <CounterContext.Provider value={% raw %}{{ count, setCount }}{% endraw %}>
           <CounterDisplay />
           <CounterButton />
         </CounterContext.Provider>

@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Anchi Li (李桉弛)"
 title_separator          : "-"
 name                     : &name "Anchi Li"
-description              : &description "personal description"
+description              : &description "Academic website of Anchi Li, an AI researcher and engineer working on LLM agents, AI for software engineering, retrieval-augmented generation, and human-centered AI."
 url                      : "https://l1anch1.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "l1anch1/l1anch1.github.io"
@@ -22,12 +22,12 @@ repository               : "l1anch1/l1anch1.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/profile.png"
+  avatar           : "profile.png"
   name             : "Anchi Li"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : "CS Senior at Beijing University of Technology | AI & HCI Research"
+  bio              : "AI Researcher & Engineer | LLM Agents · AI for Software Engineering · Human-Centered AI"
   location         : "Beijing, China"
-  employer         : #"Red Brick University"
+  employer         :
   uri              : "https://l1anch1.github.io" # URL
   email            : "l1anch1@outlook.com" 
 
@@ -77,12 +77,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Publications'
+  under_review:
+    title: 'Under Review'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -136,13 +134,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "site-logo.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Anchi Li"
+  links:
+    - "https://github.com/l1anch1"
+    - "https://orcid.org/0009-0003-3749-0875"
+    - "https://l1anch1.com/"
 
 
 # Analytics
@@ -294,7 +295,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
