@@ -51,37 +51,35 @@
 }
 
 .button-row {
-  align-items: stretch;
-  gap: 0.85rem;
-  margin-top: 1.75rem;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
 }
 
 .site-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.45rem;
-  min-height: 3.1rem;
-  padding: 0.75rem 1.3rem;
-  border: 2px solid var(--global-link-color);
-  border-radius: 6px;
-  box-shadow: 0 5px 14px rgba(26, 54, 62, 0.16);
+  gap: 0.35rem;
+  min-height: 2.65rem;
+  padding: 0.58rem 1.05rem;
+  border: 1px solid var(--global-link-color);
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(26, 54, 62, 0.08);
   font-family: $sans-serif;
-  font-size: 0.9rem;
-  font-weight: 800;
-  letter-spacing: 0.01em;
+  font-size: $type-size-6;
+  font-weight: 700;
   text-decoration: none !important;
 
   &:hover,
   &:focus {
-    color: #fff !important;
-    box-shadow: 0 8px 20px rgba(26, 54, 62, 0.24);
-    transform: translateY(-2px);
+    box-shadow: 0 3px 9px rgba(26, 54, 62, 0.12);
+    transform: translateY(-1px);
   }
 
   &:focus-visible {
-    outline: 3px solid #f0b429;
-    outline-offset: 3px;
+    outline: 2px solid #f0b429;
+    outline-offset: 2px;
   }
 }
 
@@ -94,14 +92,14 @@
 }
 
 .site-button--secondary {
-  color: #fff !important;
-  border-color: #3f5261;
-  background: #3f5261;
+  color: var(--global-link-color) !important;
+  background: transparent;
 
   &:hover,
   &:focus {
-    border-color: #2f3e49;
-    background: #2f3e49;
+    color: var(--global-link-color-hover) !important;
+    border-color: var(--global-link-color-hover);
+    background: transparent;
   }
 }
 
@@ -272,15 +270,16 @@ html[data-theme="dark"] {
   .status-badge { color: #f4c97a; }
 
   .site-button--secondary {
-    border-color: #71899b;
-    background: #5b7182;
+    color: var(--global-link-color) !important;
+    border-color: var(--global-link-color);
+    background: transparent;
   }
 }
 
 @media (max-width: 700px) {
   .home-intro { padding: 1.25rem; }
-  .button-row { display: grid; grid-template-columns: 1fr; }
-  .site-button { width: 100%; }
+  .button-row { display: flex; }
+  .site-button { width: auto; }
   .interest-grid,
   .highlight-list { grid-template-columns: 1fr; }
   .experience-item { grid-template-columns: 1fr; gap: 0.45rem; }
